@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 .text-app{
-    color: #97c93e !important;
+    color: #2c78ba !important;
 }
 
 .text-app:hover { 
@@ -7,11 +11,16 @@
 }
 
 .btn-app{
-    background-color: #1a04dd;
+    background-color: #134470;
 }
 
 .btn-app:hover { 
-    color: #5d7686 ; 
+    color: #031a2d ; 
+    background-color: #2c78ba;
+}
+
+#header{
+    background-color: #031a2d !important;
 }
 
 #header img{
@@ -42,5 +51,13 @@
 #carousel .overlay .container, 
 #carousel .overlay .row{
     height: 100%;
+}
+
+body{
+    background-color: #e6eaed;
+}
+
+.features{
+    height: 400px;
 }
 
